@@ -30,7 +30,7 @@ h3 {
 
 
 #footer {
-    height: 50px;
+    height: 100px;
     clear: both; 
    
 }
@@ -97,10 +97,15 @@ li {
 }
 
 a {
+    background: rgb(172, 204, 184);
+    background-size: 100px;
     text-decoration: none;
     color:rgb(100, 22, 22);
-    border-radius:5px; 
-    background: rgb(172, 204, 184);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    margin: 5px;
+    padding:3px;
+    border-radius: 5px; 
+    
 }
 
 a:hover {
@@ -111,6 +116,9 @@ a:hover {
 a.links {
     color:rgb(163, 63, 63);
     background: none;
+    box-shadow:none;
+    padding:0%;
+    margin:0%;
 }
 
 dt {
@@ -133,4 +141,8 @@ img {
     width: 250px;
     image-rendering: auto;
     border-radius: 3px;
+}
+
+.class {
+    color: rgba(25, 90, 63, 0.767);
 }
