@@ -27,15 +27,11 @@ h3 {
     text-shadow: 10%;
 }
 
-
-
 #footer {
     height: 100px;
     clear: both; 
    
 }
-
-
 
 #section {
     height: auto;
@@ -62,7 +58,6 @@ h3 {
     padding: 5px;
 
 }
-
 
 div {
     border: 2px solid rgba(71, 83, 83, 0); 
