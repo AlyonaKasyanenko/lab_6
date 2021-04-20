@@ -1,5 +1,5 @@
 #container { 
-    width: 1015px;
+    width: 1021px;
     margin: auto; 
     
 } 
@@ -10,6 +10,13 @@
     text-align: left;
     float: right;
     
+}
+
+#line_up, #line_center {
+    background-color: none;
+    border: none;
+    margin: none;
+    padding: none;
 }
 
 #header {
@@ -33,7 +40,7 @@ h3 {
    
 }
 
-#section {
+#aside {
     height: auto;
     width: 295px;
     float: left;
